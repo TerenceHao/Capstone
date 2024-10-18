@@ -61,8 +61,8 @@
 #end
 #end
       <el-form-item>
-        <el-button type="primary" icon="Search" @click="handleQuery">搜索</el-button>
-        <el-button icon="Refresh" @click="resetQuery">重置</el-button>
+        <el-button type="primary" icon="Search" @click="handleQuery">Search</el-button>
+        <el-button icon="Refresh" @click="resetQuery">Reset</el-button>
       </el-form-item>
     </el-form>
 
@@ -74,7 +74,7 @@
           icon="Plus"
           @click="handleAdd"
           v-hasPermi="['${moduleName}:${businessName}:add']"
-        >新增</el-button>
+        >Add</el-button>
       </el-col>
       <el-col :span="1.5">
         <el-button
@@ -94,7 +94,7 @@
           :disabled="multiple"
           @click="handleDelete"
           v-hasPermi="['${moduleName}:${businessName}:remove']"
-        >删除</el-button>
+        >Delete</el-button>
       </el-col>
       <el-col :span="1.5">
         <el-button

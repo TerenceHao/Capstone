@@ -23,7 +23,7 @@ public class Constants
     /**
      * 系统语言
      */
-    public static final Locale DEFAULT_LOCALE = Locale.SIMPLIFIED_CHINESE;
+    public static final Locale DEFAULT_LOCALE = Locale.ENGLISH;
 
     /**
      * www主域

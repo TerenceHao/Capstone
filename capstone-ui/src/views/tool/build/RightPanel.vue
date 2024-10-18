@@ -756,7 +756,7 @@ export default {
             ></i>
             <i on-click={() => this.remove(node, data)}
               class="el-icon-delete"
-              title="删除"
+              title="Delete"
             ></i>
           </span>
         </div>
